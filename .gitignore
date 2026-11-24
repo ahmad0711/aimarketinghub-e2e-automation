@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache & pytest files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+test-results/
+playwright-report/
+
+# OS & Editor files
+.DS_Store
+.vscode/
+
+# Sensitive credentials (optional: remove this line if repo is private and you want users.py pushed)
+users.py
